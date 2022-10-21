@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 import pandas as pd
 import dash
 import dash_html_components as html
@@ -112,4 +106,3 @@ def update_scattergraph(site_dropdown,payload_slider):
 
 if __name__ == '__main__':
     app.run_server(debug=False)
-
